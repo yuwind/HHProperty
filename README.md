@@ -1,13 +1,9 @@
 
 
-####效果图
-![modelGenerateGif.gif](http://upload-images.jianshu.io/upload_images/1801563-c89bb1f97be89dfc.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-###说明
+**说明：**
 >简单易用的工具类，根据网络请求的数据自动导入模型属性，可以自定义字段，支持嵌套模型，告别每次都需要手动输入属性，减少输入错误。
 
-####使用方法
+**使用方法：**
 >1、创建模型，如：HHModel、Hello、Word、为用户自定义模型。
 >2、调用如下类方法创建属性方法`generateProperty`
 >3、运行你的程序，你会发现模型属性已经出现
