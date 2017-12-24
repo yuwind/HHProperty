@@ -93,7 +93,3 @@ NSObject+HHModelGenerate.h
 }
 ```
 
-**Demo下载地址：**
-[HHModelGenerate](https://github.com/yuwind/HHModelGenerate)
-
-
