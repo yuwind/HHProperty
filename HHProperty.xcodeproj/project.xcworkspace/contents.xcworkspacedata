@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HHModelGenerate.xcodeproj">
+      location = "self:/Users/yufeng/Desktop/HHModelGenerate/HHProperty.xcodeproj">
    </FileRef>
 </Workspace>

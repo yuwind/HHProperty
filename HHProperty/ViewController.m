@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  HHModelGenerate
+//  HHProperty
 //
 //  Created by 豫风 on 2017/12/22.
 //  Copyright © 2017年 豫风. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "NSObject+HHModelGenerate.h"
+#import "NSObject+HHProperty.h"
 #import "HHModel.h"
 
 @interface ViewController ()
