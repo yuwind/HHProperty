@@ -10,7 +10,7 @@
 
 **包含方法：**
 ```objc
-NSObject+HHModelGenerate.h
+NSObject+HHProperty.h
 /**
  快速生成模型属性
  
