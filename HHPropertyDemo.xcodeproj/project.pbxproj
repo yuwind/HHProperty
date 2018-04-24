@@ -102,8 +102,8 @@
 		50C6C79B208EC462002396B3 /* HHProperty */ = {
 			isa = PBXGroup;
 			children = (
-				50C6C79C208EC462002396B3 /* NSObject+HHProperty.m */,
 				50C6C79D208EC462002396B3 /* NSObject+HHProperty.h */,
+				50C6C79C208EC462002396B3 /* NSObject+HHProperty.m */,
 			);
 			path = HHProperty;
 			sourceTree = "<group>";
