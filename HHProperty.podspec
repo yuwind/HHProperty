@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "HHProperty"    #存储库名称
   s.version      = "1.0.0"      #版本号，与tag值一致
   s.summary      = "Generate model properties quickly."  #简介
-  s.description  = "Generate model properties quickly."  #描述
-  s.homepage     = "https://www.jianshu.com/p/0fb7efe24dd8"
-        #项目主页，不是git地址
+  s.homepage     = "https://github.com/yuwind/HHProperty/wiki"
   s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
   s.author       = { "豫风" => "991810133@qq.com" }  #作者
   s.platform     = :ios, "7.0"                  #支持的平台和版本号
