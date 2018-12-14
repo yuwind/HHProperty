@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50C6C7A3208EC462002396B3 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C790208EC462002396B3 /* Hello.m */; };
+		504AF95F2136ACA30078A617 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 504AF95D2136ACA30078A617 /* Hello.m */; };
+		504AF9632136ADC50078A617 /* HHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 504AF9622136ADC50078A617 /* HHModel.m */; };
 		50C6C7A4208EC462002396B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C6C792208EC462002396B3 /* Assets.xcassets */; };
 		50C6C7A5208EC462002396B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C793208EC462002396B3 /* ViewController.m */; };
 		50C6C7A6208EC462002396B3 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C794208EC462002396B3 /* Word.m */; };
@@ -15,25 +16,23 @@
 		50C6C7A8208EC462002396B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C6C798208EC462002396B3 /* Main.storyboard */; };
 		50C6C7A9208EC462002396B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C79A208EC462002396B3 /* main.m */; };
 		50C6C7AB208EC462002396B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C79E208EC462002396B3 /* AppDelegate.m */; };
-		50C6C7AC208EC462002396B3 /* HHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C79F208EC462002396B3 /* HHModel.m */; };
-		50C6C7AD208EC462002396B3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C6C7A1208EC462002396B3 /* Info.plist */; };
 		50C6C7B1208EC736002396B3 /* NSObject+HHProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6C7AF208EC736002396B3 /* NSObject+HHProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		503B6E211FED033800E78496 /* HHPropertyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHPropertyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504AF95D2136ACA30078A617 /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+		504AF95E2136ACA30078A617 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		504AF9612136ADC50078A617 /* HHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHModel.h; sourceTree = "<group>"; };
+		504AF9622136ADC50078A617 /* HHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHModel.m; sourceTree = "<group>"; };
 		50C6C78E208EC462002396B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		50C6C790208EC462002396B3 /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
-		50C6C791208EC462002396B3 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
 		50C6C792208EC462002396B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C6C793208EC462002396B3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50C6C794208EC462002396B3 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
-		50C6C795208EC462002396B3 /* HHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHModel.h; sourceTree = "<group>"; };
 		50C6C797208EC462002396B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C6C799208EC462002396B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50C6C79A208EC462002396B3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50C6C79E208EC462002396B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50C6C79F208EC462002396B3 /* HHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHModel.m; sourceTree = "<group>"; };
 		50C6C7A0208EC462002396B3 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		50C6C7A1208EC462002396B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C6C7A2208EC462002396B3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -68,6 +67,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		504AF95C2136ACA30078A617 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				504AF95E2136ACA30078A617 /* Hello.h */,
+				504AF95D2136ACA30078A617 /* Hello.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		50C6C78D208EC462002396B3 /* HHPropertyDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +85,12 @@
 				50C6C7A2208EC462002396B3 /* ViewController.h */,
 				50C6C793208EC462002396B3 /* ViewController.m */,
 				50C6C798208EC462002396B3 /* Main.storyboard */,
-				50C6C795208EC462002396B3 /* HHModel.h */,
-				50C6C79F208EC462002396B3 /* HHModel.m */,
+				504AF9612136ADC50078A617 /* HHModel.h */,
+				504AF9622136ADC50078A617 /* HHModel.m */,
 				50C6C7A0208EC462002396B3 /* Word.h */,
 				50C6C794208EC462002396B3 /* Word.m */,
-				50C6C78F208EC462002396B3 /* test */,
 				50C6C79A208EC462002396B3 /* main.m */,
+				504AF95C2136ACA30078A617 /* test */,
 				50C6C796208EC462002396B3 /* LaunchScreen.storyboard */,
 				50C6C7A1208EC462002396B3 /* Info.plist */,
 				50C6C792208EC462002396B3 /* Assets.xcassets */,
@@ -90,20 +98,11 @@
 			path = HHPropertyDemo;
 			sourceTree = "<group>";
 		};
-		50C6C78F208EC462002396B3 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				50C6C791208EC462002396B3 /* Hello.h */,
-				50C6C790208EC462002396B3 /* Hello.m */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
 		50C6C7AE208EC736002396B3 /* HHProperty */ = {
 			isa = PBXGroup;
 			children = (
-				50C6C7AF208EC736002396B3 /* NSObject+HHProperty.m */,
 				50C6C7B0208EC736002396B3 /* NSObject+HHProperty.h */,
+				50C6C7AF208EC736002396B3 /* NSObject+HHProperty.m */,
 			);
 			path = HHProperty;
 			sourceTree = SOURCE_ROOT;
@@ -134,7 +133,7 @@
 		503B6E191FED033800E78496 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "豫风";
 				TargetAttributes = {
 					503B6E201FED033800E78496 = {
@@ -166,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C6C7AD208EC462002396B3 /* Info.plist in Resources */,
 				50C6C7A8208EC462002396B3 /* Main.storyboard in Resources */,
 				50C6C7A4208EC462002396B3 /* Assets.xcassets in Resources */,
 				50C6C7A7208EC462002396B3 /* LaunchScreen.storyboard in Resources */,
@@ -183,10 +181,10 @@
 				50C6C7A5208EC462002396B3 /* ViewController.m in Sources */,
 				50C6C7B1208EC736002396B3 /* NSObject+HHProperty.m in Sources */,
 				50C6C7AB208EC462002396B3 /* AppDelegate.m in Sources */,
-				50C6C7A3208EC462002396B3 /* Hello.m in Sources */,
 				50C6C7A9208EC462002396B3 /* main.m in Sources */,
+				504AF95F2136ACA30078A617 /* Hello.m in Sources */,
 				50C6C7A6208EC462002396B3 /* Word.m in Sources */,
-				50C6C7AC208EC462002396B3 /* HHModel.m in Sources */,
+				504AF9632136ADC50078A617 /* HHModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +224,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -233,6 +232,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -281,6 +281,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -288,6 +289,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -321,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3P263BEBSC;
+				DEVELOPMENT_TEAM = QK2ZZJFH25;
 				INFOPLIST_FILE = "$(SRCROOT)/HHPropertyDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -336,7 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3P263BEBSC;
+				DEVELOPMENT_TEAM = QK2ZZJFH25;
 				INFOPLIST_FILE = "$(SRCROOT)/HHPropertyDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

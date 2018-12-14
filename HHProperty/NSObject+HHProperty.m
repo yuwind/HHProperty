@@ -27,6 +27,7 @@
 + (void)generateProperty:(id)sources path:(NSString *)path map:(NSDictionary *)map container:(NSDictionary<NSString *,Class> *)container
 {
     if (!sources || !path) return;
+    if ([self hasGenerateProperty:path])return;
     if ([sources isKindOfClass:[NSArray class]]) {
         NSArray *array = sources;
         if (array.count && [array.firstObject isKindOfClass:NSString.class]) {
@@ -151,10 +152,17 @@
     }
 }
 
++ (BOOL)hasGenerateProperty:(NSString *)path
+{
+    NSMutableData *fileData = [[NSMutableData alloc] initWithContentsOfFile:path];
+    NSRange range = [fileData rangeOfData:[@"//HHProperty_add" dataUsingEncoding:NSUTF8StringEncoding] options:(NSDataSearchBackwards) range:NSMakeRange(0, fileData.length)];
+    return range.location != NSNotFound;
+}
+
 + (void)executeDeployment:(NSMutableString *)result path:(NSString *)path
 {
     [result appendString:@"\n"];
-    [result appendString:@"@end"];
+    [result appendString:@"@end//HHProperty_add"];
     NSData *propertyData = [result dataUsingEncoding:(NSUTF8StringEncoding)];
     NSMutableData *fileData = [[NSMutableData alloc] initWithContentsOfFile:path];
     NSRange range = [fileData rangeOfData:[@"@end" dataUsingEncoding:NSUTF8StringEncoding] options:(NSDataSearchBackwards) range:NSMakeRange(0, fileData.length)];
@@ -171,6 +179,7 @@
         NSArray *subpathArray = [[NSFileManager defaultManager] subpathsAtPath:methodPath];
         for (NSString *subPath in subpathArray) {
             if ([subPath.lastPathComponent isEqualToString:formatString(@"%@.h",NSStringFromClass(class))]) {
+                NSLog(@"%@",subPath.lastPathComponent);
                 return [methodPath stringByAppendingPathComponent:subPath];
             }
         }
