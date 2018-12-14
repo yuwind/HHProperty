@@ -179,7 +179,6 @@
         NSArray *subpathArray = [[NSFileManager defaultManager] subpathsAtPath:methodPath];
         for (NSString *subPath in subpathArray) {
             if ([subPath.lastPathComponent isEqualToString:formatString(@"%@.h",NSStringFromClass(class))]) {
-                NSLog(@"%@",subPath.lastPathComponent);
                 return [methodPath stringByAppendingPathComponent:subPath];
             }
         }

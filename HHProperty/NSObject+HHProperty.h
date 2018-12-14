@@ -23,7 +23,7 @@ static inline NSString *formatString(NSString *format,...){
 @interface NSObject (HHProperty)
 
 /**
- 快速生成模型属性
+ 快速生成模型属性，适用于模拟器
  
  @param sources    数组或字典
  @para  map        替换字段映射
